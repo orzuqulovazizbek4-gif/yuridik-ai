@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="0rGPUCPwegOEWNshxmATW_vNggxbO7GQlGC4x9W_9-0" />
 import streamlit as st
 import google.generativeai as genai
 from docx import Document
