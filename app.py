@@ -70,7 +70,7 @@ def get_working_model():
     genai.configure(api_key=api_key)
     
     # Modellarni birma-bir tekshirib, ishlaydiganini tanlash
-    candidate_models = ['gemini-3.6-pro', 'gemini-3.6-flash-extended', 'gemini-3.6-flash', 'gemini-pro']
+    candidate_models = ['gemini-3.6-flash', 'gemini-3.6-flash-extended', 'gemini-3.6-flash', 'gemini-pro']
     for model_name in candidate_models:
         try:
             m = genai.GenerativeModel(model_name)
