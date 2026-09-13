@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 from docx import Document
 import io
-
+google-site-verification: google360230183ef90def.html
 # 1. SEO va Sahifa Sozlamalari
 st.set_page_config(
     page_title="LexiDraft AI — Yuridik Konsultant",
